@@ -7,8 +7,8 @@ SECS_IN_DAY = 86400
 s3 = boto3.resource(
     service_name='s3',
     region_name='eu-west-3',
-    aws_access_key_id='ASIAQON5W62NMFAGDRX5',
-    aws_secret_access_key='BeuQX+jbpJav/wAbYKJ2h3Ribfbx+O+SLLiY6SaD'
+    aws_access_key_id='ASIAQON5W62NK22RQXLG',
+    aws_secret_access_key='uWJeDtOJpGtULV0IYi5lhOmMf+oGrBdTNZDryrpQ'
 )
 
 BUCKETS = ['04-prod-bb-chat-2868b1d6c06b', '04-prod-bb-email-b3b3503572be', '04-prod-smtp-archive-02269a7c9af5',
